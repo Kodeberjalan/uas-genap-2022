@@ -4,6 +4,6 @@ c=int(input('Masukkan deret data: '))
 fibonacci=[a,b]
 for i in range (c): 
     fibonacci.append(fibonacci[i]+fibonacci[i+1]) 
-    if fibonacci [i]==21:
+    if fibonacci [i]+fibonacci[i+1]==53:
         break
 print(fibonacci)
